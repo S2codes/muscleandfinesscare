@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;600&display=swap" rel="stylesheet">
+    <!-- slick  -->
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>User Profile | muscleandfinesscare</title>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-5" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="support.html">Support</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center align-items-center">
+                        <a class="nav-link" href="#">Cart <i class='bx bxs-cart text-light'></i></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class='bx bxs-user'></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="pt-5">
+
+        <div class="container-fluid p-0 mt-3">
+            <!-- feature products  -->
+            <div class="row">
+                <div class="col-md-11 col-12 mx-auto feature_product_container p-0">
+                    <!-- <p class="heading-small text-center">SHOP OUR NEW RELEASES</p>
+          <h1 class="heading text-center">Featured Products</h1> -->
+
+                    <div class="row mt-2">
+
+                        <div class="col-md-3 col-12 p-2 m-0">
+
+                            <div class="ProfileBand whiteBg">
+                                <p>Subhankar</p>
+                            </div>
+
+                            <div class="profileStuff m-0 whiteBg">
+                                
+                                    <ul class="stuffItemList m-0">
+                                        <li class="stuffItem mb-3"><a href="#"><i class='bx bxs-user'></i> My Info</a></li>
+                                        <li class="stuffItem mb-3"><a href="orders.html"><i class='bx bxs-package'></i> Orders</a></li>
+                                        <li class="stuffItem mb-3"><a href="#"><i class='bx bx-log-out-circle'></i> Logout</a></li>
+                                    </ul>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-9 col-12 p-2">
+
+                            <div class="cart-list mb-3">
+                                <h4 class="cart-title">Personal Information  <a href="#"><span class="text-primary ms-3 edit">Edit<i class='bx bx-plus'></i></span></a></h4>
+
+                                <div class="user-details">
+                                    <form action="#" method="post">
+                                        <div class="row">
+                                            <div class="col-md-6 col-12 mb-3">
+                                                <input type="text" placeholder="Name" value="Username" class="form-control p-3">
+                                            </div>
+                                            <div class="col-md-6 col-12 mb-3">
+                                                <input type="text" placeholder="Email" value="" class="form-control p-3">
+                                            </div>
+                                            <div class="col-md-6 col-12 mb-3">
+                                                <input type="text" placeholder="Contact" value="" class="form-control p-3">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="cart-list mb-3">
+                                <h4 class="cart-title">Manage Address  <a href="#"><span class="text-primary ms-3 edit">Add New Address<i class='bx bx-plus'></i></span></a></h4>
+
+                                <div class="user-details">
+                                    <form action="#" method="post">
+                                        <div class="row mt-3">
+                                            <div class="col-md-6 col-12">
+                                                <input type="text" name="" id="" placeholder="Name"
+                                                    class="form-control p-3 mb-3">
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <input type="tel" name="" id="" placeholder="Phone"
+                                                    class="form-control p-3 mb-3">
+                                            </div>
+    
+                                            <div class="col-md-6 col-12">
+                                                <select name="state" id="state" class="form-control p-3">
+                                                    <option selected disabled>Select State</option>
+                                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands
+                                                    </option>
+                                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                    <option value="Assam">Assam</option>
+                                                    <option value="Bihar">Bihar</option>
+                                                    <option value="Chandigarh">Chandigarh</option>
+                                                    <option value="Chhattisgarh">Chhattisgarh</option>
+                                                    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                                    <option value="Daman and Diu">Daman and Diu</option>
+                                                    <option value="Delhi">Delhi</option>
+                                                    <option value="Lakshadweep">Lakshadweep</option>
+                                                    <option value="Puducherry">Puducherry</option>
+                                                    <option value="Goa">Goa</option>
+                                                    <option value="Gujarat">Gujarat</option>
+                                                    <option value="Haryana">Haryana</option>
+                                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                    <option value="Jharkhand">Jharkhand</option>
+                                                    <option value="Karnataka">Karnataka</option>
+                                                    <option value="Kerala">Kerala</option>
+                                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                    <option value="Maharashtra">Maharashtra</option>
+                                                    <option value="Manipur">Manipur</option>
+                                                    <option value="Meghalaya">Meghalaya</option>
+                                                    <option value="Mizoram">Mizoram</option>
+                                                    <option value="Nagaland">Nagaland</option>
+                                                    <option value="Odisha">Odisha</option>
+                                                    <option value="Punjab">Punjab</option>
+                                                    <option value="Rajasthan">Rajasthan</option>
+                                                    <option value="Sikkim">Sikkim</option>
+                                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                                    <option value="Telangana">Telangana</option>
+                                                    <option value="Tripura">Tripura</option>
+                                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                    <option value="Uttarakhand">Uttarakhand</option>
+                                                    <option value="West Bengal">West Bengal</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <input type="tel" name="" id="" placeholder="City / Town"
+                                                    class="form-control mb-3 p-3">
+                                            </div>
+                                            <div class="col-md-12 col-12">
+                                                <textarea name="address" id="" cols="30" rows="3" class="form-control mb-3 p-3"
+                                                    placeholder="Address (Area & Street)"></textarea>
+                                            </div>
+    
+                                            <div class="col-md-6 col-12">
+                                                <input type="text" name="" id="" placeholder="Pincode"
+                                                    class="form-control mb-3 p-3">
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <input type="tel" name="" id="" placeholder="Landmark"
+                                                    class="form-control mb-3 p-3">
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <input type="text" name="" id="" placeholder="Alternative Number(optional)"
+                                                    class="form-control mb-3 p-3">
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <select name="" id="" class="form-control p-3">
+                                                    <option selected disabled>Select Order Type</option>
+                                                    <option value="home">All day delivery</option>
+                                                    <option value="work">Delivery between 10AM - 5PM</option>
+                                                </select>
+                                            </div>
+    
+                                            <div class="col-md-6 col-12">
+                                                <button class="btn btn-primary  me-2">Add Address</button>
+                                                <button class="btn btn-outline-info ">Edit Address</button>
+                                            </div>
+    
+    
+                                        </div>
+    
+                                    </form>
+
+                                    <div class="address-details mt-3">
+                                        <div class="row">
+                                            <div class="col-md-12 col-12 mt-5 p-3 addressList">
+                                                <p class="addressList-item">Subhankar Sarkar</p>
+                                                <p class="addressList-item">+91 0984512354</p>
+
+                                                <p class="Aarea">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora rem laudantium, recusandae nulla magnam illo cupiditate omnis saepe consectetur! Optio sit unde dolore iusto facilis perferendis porro nisi expedita aperiam?</p>
+                                                <div class="col-md-6 col-12">
+                                                    <button class="btn btn-danger  me-2">remove</button>
+                                                    <button class="btn btn-outline-info ">Edit Address</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <!-- partners  -->
+    <!-- <div class="container-fluid p-0 mt-5">
+    <div class="row footerBar">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row ">
+          <div class="col-md-3">
+              <img src="" alt="">
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+      <!-- footer bar-->
+      <div class="container-fluid p-0 mt-5">
+        <div class="row footerBar">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row ">
+  
+              <div class="col-md-4 col-12">
+                <p class="my-3 text-center fbar-para"><a href="#">91 09889 32312</a></p>
+              </div>
+              <div class="col-md-4 col-12">
+                <p class="my-3 text-center fbar-para"><a href="#">info@muscleandfitnesscare.com</a></p>
+              </div>
+              <div class="col-md-4 col-12 ">
+                <p class="my-3 text-center fbar-para"><a href="#" class="me-2"><i class='bx bxl-facebook-circle fbar-icon'></i></a>
+                  <a href="#" class="me-2"><i class='bx bxl-instagram fbar-icon'></i></a>
+                  <a href="#"><i class='bx bxl-youtube fbar-icon'></i></a>
+                </p>
+              </div>
+  
+  
+            </div>
+            <!-- newsletter  -->
+            <div class="row mb-5">
+              <div class="col-md-8 col-10 mx-auto ">
+                <form action="#" method="post">
+                  <input type="email" name="mail" id="newsletter" placeholder="Enter Your Email">
+                  <button class="newsletterBtn">Subcribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <footer class="bg-dark p-3">
+        <div class="py-12 border-bottom border-gray-700">
+          <div class="container p-3">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+  
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-3">
+  
+                <!-- Heading -->
+                <h4 class="mb-6 text-white" style="font-size: 2.5rem;">Muscle & Finess Care</h4>
+                <div class="d-flex text-white" style="font-size: 3rem;">
+                  <a href="#" class="me-2"><i class='bx bxl-facebook-circle'></i></a>
+                  <a href="#" class="me-2"><i class='bx bxl-instagram'></i></a>
+                  <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+  
+                <!-- Social -->
+                <ul class="list-unstyled list-inline mb-7 mb-md-0">
+                  <li class="list-inline-item">
+                    <a href="#!" class="text-gray-350">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#!" class="text-gray-350">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#!" class="text-gray-350">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#!" class="text-gray-350">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#!" class="text-gray-350">
+                      <i class="fab fa-medium"></i>
+                    </a>
+                  </li>
+                </ul>
+  
+              </div>
+              <div class="col-6 col-sm">
+  
+                <!-- Heading -->
+                <h6 class="foote-heading mb-4 text-white">
+                  Support
+                </h6>
+  
+                <!-- Links -->
+                <ul class="list-unstyled mb-7 mb-sm-0">
+                  <li>
+                    <a class="text-gray-300" href="./contact-us.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="./faq.html">FAQs</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" data-toggle="modal" href="#modalSizeChart">Size Guide</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="./shipping-and-returns.html">Shipping &amp; Returns</a>
+                  </li>
+                </ul>
+  
+              </div>
+              <div class="col-6 col-sm">
+  
+                <!-- Heading -->
+                <h6 class="foote-heading mb-4 text-white">
+                  Brands
+                </h6>
+  
+                <!-- Links -->
+                <ul class="list-unstyled mb-7 mb-sm-0">
+                  <li>
+                    <a class="text-gray-300" href="#">Brand 1</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="#">Brand 2</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="#">Brand 3</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="#">Brand 4</a>
+                  </li>
+                </ul>
+  
+              </div>
+              <div class="col-6 col-sm">
+  
+                <!-- Heading -->
+                <h6 class="foote-heading mb-4 text-white">
+                  Company
+                </h6>
+  
+                <!-- Links -->
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a class="text-gray-300" href="./about.html">Our Story</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="#!">Careers</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="#!">Terms &amp; Conditions</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="#!">Privacy &amp; Cookie policy</a>
+                  </li>
+                </ul>
+  
+              </div>
+              <div class="col-6 col-sm">
+  
+                <!-- Heading -->
+                <h6 class="foote-heading mb-4 text-white">
+                  Contact
+                </h6>
+  
+                <!-- Links -->
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a class="text-gray-300" href="#!">1-202-555-0105</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="#!">1-202-555-0106</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-300" href="#!">help@shopper.com</a>
+                  </li>
+                </ul>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="py-6">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+  
+                <!-- Copyright -->
+                <p class="mb-3 mb-md-0 copyright-para text-muted mt-2">
+                  © 2022 All rights reserved.muscleandfinesscare | Developed By <span
+                    style="color: #f2cb1f;">Subhankar</span>
+                </p>
+  
+              </div>
+              <div class="col-auto">
+  
+                <!-- Payment methods -->
+                <!-- <img class="footer-payment" src="./assets/img/payment/mastercard.svg" alt="...">
+              <img class="footer-payment" src="./assets/img/payment/visa.svg" alt="...">
+              <img class="footer-payment" src="./assets/img/payment/amex.svg" alt="...">
+              <img class="footer-payment" src="./assets/img/payment/paypal.svg" alt="...">
+              <img class="footer-payment" src="./assets/img/payment/maestro.svg" alt="...">
+              <img class="footer-payment" src="./assets/img/payment/klarna.svg" alt="..."> -->
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="assets/js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+
+</body>
+
+</html>

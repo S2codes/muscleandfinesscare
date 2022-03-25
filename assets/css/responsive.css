@@ -5,7 +5,9 @@
 .feature-btn{
     padding: 0.5rem 0.9rem;
 }
-
+.fbar-para{
+    padding: 0;
+}
 
 
 
@@ -23,14 +25,27 @@
 
 /* category off  */
 .catgContainer{
-    /* flex-direction: column; */
     flex-wrap: wrap;
 }
 .catgCard{
-    width: 49%;
+    width: 48%;
+    height: 40rem;
     margin: 5px auto;
+    object-fit: contain;
+}
+.catgCard-2{
+    object-fit: contain;
 }
 
+/* newsletter  */
+#newsletter{
+    width: 100%;
+}
+.newsletterBtn{
+    display: block;
+    margin: 1.2rem auto;
+    padding: 1rem 2rem;;
+}
 
 
 

@@ -5,4 +5,7 @@ $(document).ready(function () {
         infinite: true,
         autoplaySpeed: 1000,
     });
+
+
+
 })

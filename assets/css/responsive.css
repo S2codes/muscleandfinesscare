@@ -8,11 +8,34 @@
 .fbar-para{
     padding: 0;
 }
-
-
+.head-small{
+    font-size: 1.5rem;
+}
+.header_head{
+    font-size: 3rem;
+}
+.header_para{
+    font-size: 1.8rem;
+}
 
 /* components end */
 
+
+/* main header  */
+.main_header .row{
+    flex-direction: column-reverse;
+    
+}
+.main_header_right{
+    padding: 2rem 3rem;
+}
+.header-img{
+    width: 15rem;
+}
+.main_header_left{
+    padding-left: 2.2rem;
+    padding-top: 0;
+}
 
 /* about us  */
 .aboutRow{
@@ -47,14 +70,31 @@
     padding: 1rem 2rem;;
 }
 
+/* about page  */
+.aboutDetails{
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+/* shop page  */
+.productFilter_lists{
+    display: none;
+}
+.product_container{
+    width: 100%;
+}
+.product_container_header h2{
+    font-size: 2rem;
+}
+.product_shortner{
+    width: auto;
+}
 
 
-
-
-
-
-
-
+/* orders page  */
+.cartProductThumb{
+    padding: 1rem;
+}
 
 
 

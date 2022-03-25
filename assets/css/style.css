@@ -84,6 +84,7 @@ button{
 .price-cut{
     color: var(--text);
     font-size: 1.3rem;
+    margin: 0;
 }
 .b_shadow{
     box-shadow: 14px 15px 8px -7px rgba(184,192,194,0.2);
@@ -259,7 +260,7 @@ footer a:hover{
 .aboutBtn{
     border: 1px solid #000;
     background-color: transparent;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 500;
     color: black;
     padding: 0.5rem 1.5rem;
@@ -408,6 +409,10 @@ footer a:hover{
     color: #000;
     font-size: 2rem;
     margin: 0;
+}
+.productPrice{
+    font-size: 1.7rem;
+    color: #388e3c;
 }
 .cartBtn{
     background-color: transparent;
@@ -759,9 +764,7 @@ footer a:hover{
     color: var(--text);
     margin-bottom: 1.3rem;
 }
-.aboutBtn i{
-    font-size: 2.2rem;
-}
+
 
 .aboutBtn-reverse{
     background-color: #000;

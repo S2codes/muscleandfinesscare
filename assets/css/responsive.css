@@ -1,0 +1,46 @@
+@media screen and (max-width: 800px){
+
+/* components  */
+
+.feature-btn{
+    padding: 0.5rem 0.9rem;
+}
+
+
+
+
+/* components end */
+
+
+/* about us  */
+.aboutRow{
+    flex-direction: column-reverse;
+}
+.aboutDetails{
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* category off  */
+.catgContainer{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.catgCard{
+    width: 49%;
+    margin: 5px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

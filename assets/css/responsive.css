@@ -19,7 +19,19 @@
 }
 
 /* components end */
+/* navbar  */
+.nav-mr{
+    margin-right: 1rem;
+}
 
+.navbar-tool-text{
+    display: none;
+}
+.navbar-expand-lg {
+    padding: 1.5rem;
+}
+
+/* navbar  */
 
 /* main header  */
 .main_header .row{

@@ -19,51 +19,147 @@
 
 <body>
     <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand ps-5" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="aboutus.html">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="support.html">Support</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-center align-items-center">
-                        <a class="nav-link" href="#">Cart <i class='bx bxs-cart text-light'></i></a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class='bx bxs-user'></i>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Login</a></li>
-                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
-                        </ul>
-                    </li>
-
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-
-
+    <header class="shadow-sm">
+      <!-- Topbar-->
+      <div class="topbar topbar-dark bg-dark" >
+          <div class="container p-3">
+              <ul class="text-light list-unstyled d-flex justify-content-between align-items-center m-0">
+                  <li>Support : <a href="#" class="text-light">980981231</a></li>
+                  <li>Email : <a href="#" class="text-light">info@muscleandfinesscare.com</a></li>
+              </ul>
+          </div>
+      </div>
+  
+      <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+      <div class="bg-light whiteBg">
+          <div class="navbar navbar-expand-lg navbar-light p-3">
+              <div class="container">
+                  <!-- <a class="navbar-brand d-none d-sm-block flex-shrink-0" href="index.html">
+              <img src="img/logo-dark.png" width="142" alt="Cartzilla">
+          </a> -->
+              <a class="navbar-brand flex-shrink-0 me-2" href="index.html" >
+                      <img src="img/logo-icon.png" width="74" alt="Cartzilla">
+                  </a>
+  
+                  <div class="input-group d-none d-lg-flex mx-4">
+                      <input class="form-control rounded-end py-2 pe-5 " type="text" placeholder="Search for products"><i
+                          class="bi bi-search position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"></i>
+                  </div>
+                  <div class="navbar-toolbar d-flex flex-shrink-0 align-items-center">
+                      <!-- humabarger  -->
+                      <button class="navbar-toggler collapsed me-3" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarCollapse" aria-expanded="false">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      
+                      <!-- sign in icon  -->
+                     
+                      <a class="navbar-tool nav-mr" href="#signin-modal">
+                          <div class="navbar-tool-icon-box me-2">
+                              <i class="navbar-tool-icon bx bx-user"></i>
+                          </div>
+                          <div class="navbar-tool-text ms-n3"><small>Hello, Sign in</small>My Account</div>
+                      </a>
+  
+                      <div class="navbar-tool">
+                          <!-- <i class='bx bx-cart-alt'></i> -->
+                          <a class="navbar-tool-icon-box text-light" href="cart.html">
+                              <span class="navbar-tool-label">4</span>
+                              <i class="navbar-tool-icon bx bx-cart-alt"></i>
+                          </a>
+                          <a class="navbar-tool-text" href="cart.html">My Cart</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="navbar navbar-expand-lg navbar-light navbar-stuck-menu mt-n2 pt-0 pb-2">
+              <div class="container">
+                  <div class="navbar-collapse collapse" id="navbarCollapse" >
+                      <!-- Search-->
+                      <div class="input-group d-lg-none my-3"><i
+                              class="ci-search position-absolute top-50 start-0 translate-middle-y text-muted fs-base ms-3"></i>
+                          <input class="form-control rounded-start" type="text" placeholder="Search for products">
+                      </div>
+                     
+                      <!-- Primary menu-->
+                      <ul class="navbar-nav">
+                          <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+  
+                          <!-- shop menu  -->
+                          <li class="nav-item dropdown">
+                              <a href ="shop.html" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                              <!-- shop drop down  -->
+                              <div class="dropdown-menu p-0 whiteBg">
+                                  <div class="d-flex flex-wrap flex-sm-nowrap px-2">
+                                      <div class="mega-dropdown-column pt-1 pt-lg-4 pb-4 px-2 px-lg-3" >
+                                          <div class="widget widget-links mb-4">
+                                              <h6 class="fs-base mb-3">Type</h6>
+                                              <ul class="widget-list">
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html">Product Type</a></li>
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html">Product Type</a></li>
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html">Product Type Top</a></li>
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html">Product Type</a></li>
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html">Product Type</a></li>
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html">Product Type Top</a></li>
+                                              </ul>
+                                          </div>
+                                       </div>  
+                                          
+  
+                                      <div class="mega-dropdown-column pt-1 pt-lg-4 pb-4 px-2 px-lg-3">
+  
+                                          <div class="widget widget-links mb-4">
+                                              <h6 class="fs-base mb-3">Category</h6>
+                                              <ul class="widget-list">
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html">Category</a></li>
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html">Category</a></li>
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html">Category</a></li>
+                                                  <li class="widget-list-item"><a class="widget-list-link"
+                                                          href="shop.html"></a></li>
+                                              </ul>
+                                          </div>
+                                          
+                                          
+                                      </div>
+  
+                                     
+  
+                                  </div>
+                              </div>
+                          </li>
+  
+                          <!-- brands  -->
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Brands</a>
+                              <ul class="dropdown-menu brand-dropdown p-3">
+                                <li class="widget-list-link"><a class="dropdown-item " href="product.html">Brand 1</a></li>
+                                <li class="widget-list-link"><a class="dropdown-item " href="product.html">Brand 2</a></li>
+                                <li class="widget-list-link"><a class="dropdown-item " href="product.html">Brand 3</a></li>
+                                
+                              </ul>
+                            </li>
+  
+  
+                          <li class="nav-item  active"><a class="nav-link " href="aboutus.html">About</a></li>
+                          <li class="nav-item  active"><a class="nav-link " href="support.html">Support</a></li>
+                          <li class="nav-item  active"><a class="nav-link " href="support.html">Contact</a></li>
+                          
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
 
     <main class="pt-5">
 

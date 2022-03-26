@@ -151,6 +151,10 @@ footer a:hover{
     color: var(--primary-color);
 }
 /* components end  */
+/* logo  */
+.logo{
+    object-fit: contain;
+}
 /* navbar  */
 
 .topbar ul li a{
@@ -282,14 +286,18 @@ footer a:hover{
 
 
 /* navbar  */
+.main_header_lg_img{
+    background-image: url('../img/qwerty1.jpg');
+}
 .main_header{
     width: 100%;
-    background: url('../img/qwerty1.jpg');
+    background-color: #000;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat no-repeat;
 
 }
+
 
 
 
@@ -572,6 +580,28 @@ footer a:hover{
     text-decoration: none;
     outline: none;
 }
+
+/* review  */
+
+.partnerContainer{
+    background-color: rgb(247,250,255);
+}
+.partners{
+    padding: 2rem;
+}
+.partnerItem{
+    width: 95%;
+    height: 100%;
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 1rem;
+}
+.partnerItem img{
+    width: 10rem;
+    height: auto;
+    object-fit: cover;
+}
+
 .footerBar{
     background-color: var(--primary-color);
 }

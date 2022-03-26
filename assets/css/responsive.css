@@ -36,6 +36,17 @@
 /* navbar  */
 
 /* main header  */
+
+.main_header_sm_img{
+    background: url('../img/qwerty3.png');
+}
+.main_header{
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+}
+
+
+
 .main_header .row{
     flex-direction: column-reverse;
     
@@ -112,6 +123,20 @@
     padding: 1rem;
 }
 
+
+/* partners  */
+.partners{
+    padding: 0;
+}
+.partnerItem{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+.partnerItem img{
+    width: 5rem;
+    height: auto;
+}
 
 
 }

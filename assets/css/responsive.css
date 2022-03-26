@@ -45,8 +45,10 @@
     width: 15rem;
 }
 .main_header_left{
+    height: auto;
+    padding: 2rem;
     padding-left: 2.2rem;
-    padding-top: 0;
+    margin-bottom: 2rem;
 }
 
 /* about us  */

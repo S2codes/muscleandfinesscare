@@ -7,7 +7,7 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
     });
 
-    // $('.reviews').slick({
+    // $('.allPartners').slick({
     //     autoplay: true,
     //     arrows: false,
     //     infinite: true,

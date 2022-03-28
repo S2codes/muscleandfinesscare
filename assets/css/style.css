@@ -287,7 +287,7 @@ footer a:hover{
 
 /* navbar  */
 .main_header_lg_img{
-    background-image: url('../img/qwerty1.jpg');
+    background-image: url('../img/qwerty1.webp');
 }
 .main_header{
     width: 100%;
@@ -442,7 +442,7 @@ footer a:hover{
     margin: 2rem auto;
 }
 .catgCard{
-    background-image:url('../img/cat1.png');
+    background-image:url('../img/cat1.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat no-repeat;
@@ -455,19 +455,19 @@ footer a:hover{
     position: relative;
 }
 .catgCard-2{
-    background: url('../img/cat2.png');
+    background: url('../img/cat2.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat no-repeat;
 }
 .catgCard-3{
-    background: url('../img/cat3.jpg');
+    background: url('../img/cat3.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat no-repeat;
 }
 .catgCard-4{
-    background: url('../img/cat4.jpg');
+    background: url('../img/cat4.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat no-repeat;
@@ -539,23 +539,24 @@ footer a:hover{
 .productCard{
     /* border: 2px solid black; */
     width: 100%;
-    padding: 1rem;
+    padding: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.productCard a{
+    width: 100%;
+}
+
 .productImg{
-    width: 45%;
-    height: 200px;
+    width: 100%;
+    height: 22rem;
     object-fit: contain;
-    /* border: 2px solid rebeccapurple; */
-    
 }
 .productDetails{
-    /* border: 1px solid red; */
     width: 100%;
-    /* padding: 9px; */
+    padding: 9px;
 }
 .productBrand{
     color: var(--text);
